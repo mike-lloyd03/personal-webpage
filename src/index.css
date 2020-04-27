@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background: gray;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  nav {
+    bottom: 0;
+    top: auto;
+  }
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  color: gray;
+  background: white;
+}
+
+main {
+  margin-top: 50px;
+}
