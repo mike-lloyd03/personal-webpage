@@ -17,21 +17,15 @@ nav {
   top: 0;
   display: flex;
   background: gray;
-  padding: 10px 10px;
   width: 100%;
 }
 
-@media (max-width: 500px) {
-  nav {
-    bottom: 0;
-    top: auto;
-  }
-}
+
 
 nav a {
   color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 10px 5px;
 }
 
 nav a:hover {
@@ -41,4 +35,14 @@ nav a:hover {
 
 main {
   margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  nav {
+    bottom: 0;
+    top: auto;
+  }
+  main {
+    margin-top: auto;
+  }
 }
