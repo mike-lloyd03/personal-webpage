@@ -15,17 +15,16 @@ code {
 nav {
   position: fixed;
   top: 0;
-  display: flex;
   background: gray;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
-
-
 
 nav a {
   color: white;
   text-decoration: none;
-  padding: 10px 5px;
+  padding: 10px 15px;
 }
 
 nav a:hover {

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Bass Guitar Build",
+    "description": "I built my own bass",
+    "pages": [
+      {
+        "title": "Practice Lumber",
+        "image": "",
+        "content": "I started with some maple lumber I found at a local lumber yard. It was 1.75 inch thick by about 8 inches long. The thickness was right but the width was too narrow. I'll have to glue it together to make it fit."
+      },
+      {
+        "title": "Truing Up the Two Pieces",
+        "image": "",
+        "content": "The two pieces weren't totally true so gluing them together wouldn't work without truing them up. I tried a few passes on the table saw but it just wasn't working and they were too long to fit on my sliding miter saw. I contacted a local cabinetry shop, and the owner, John, told me to come by and he would cut the two pieces on his panel saw."
+      },
+      {
+        "title": "Joining them Together",
+        "image": "",
+        "content": "Once the two pieces were trued up, it was just a matter of liberally applying glue and clamping them together overnight."
+      }
+    ]
+  }
+]
