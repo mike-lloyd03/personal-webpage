@@ -20,7 +20,7 @@ export default function Projects() {
       <h1>Projects</h1>
       {projectTitles}
       <Switch>
-        <Route path='/projects/bassguitarbuild'><ProjectDetail pages={projectsData[0].pages}/></Route>
+        <Route path='/projects/:projectID'><ProjectDetail pages={projectsData[0].pages}/></Route>
       </Switch>
     </div>
   )
