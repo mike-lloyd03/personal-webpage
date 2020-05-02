@@ -11,16 +11,14 @@ function App() {
   return (
     <div>
       <nav>
-        <Link to='/'>Home<img src='/svgs/home.svg' alt='home' /></Link>
-        <Link to='/about'>About</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link to='/'><img src={require('./svgs/about.svg')} /><div>About</div></Link>
+        <Link to='/projects'><img src={require('./svgs/projects.svg')} /></Link>
+        <Link to='/contact'><img src={require('./svgs/contact.svg')} /></Link>
       </nav>
 
       <main>
         <Switch>
-          <Route exact path='/'><Home /></Route>
-          <Route path='/about'><About /></Route>
+          <Route exact path='/'><About /></Route>
           <Route path='/projects'><Projects /></Route>
           <Route path='/contact'><Contact /></Route>
         </Switch>
