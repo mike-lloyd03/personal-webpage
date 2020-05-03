@@ -3,6 +3,7 @@ import {Link, Switch, Route} from 'react-router-dom'
 
 import ProjectDetail from './ProjectDetail'
 import projectsData from './projectsData'
+import Calculator from './Calculator/Calculator'
 
 export default function Projects() {
   const projectTitles = projectsData.map(p => 
@@ -19,8 +20,10 @@ export default function Projects() {
     <div>
       <h1>Projects</h1>
       {projectTitles}
+      <Link to='/projects/Calculator'>Calculator</Link>
       <Switch>
-        <Route path='/projects/:projectID'><ProjectDetail pages={projectsData[0].pages}/></Route>
+        {/* <Route exact path='/projects/:projectID'><ProjectDetail pages={projectsData[0].pages}/></Route> */}
+        <Route exact path='/projects/Calculator'><Calculator /></Route>
       </Switch>
     </div>
   )

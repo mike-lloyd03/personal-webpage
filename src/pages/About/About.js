@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import marked from 'marked'
 import './About.css'
+import imgMe from '../../images/me_main.jpeg'
 
 export default function About() {
   const [aboutText, setAboutText] = useState('')  
 
   useEffect(() => {
-    const aboutTextPath = require("./About.md");
+    const aboutTextPath = require("./aboutText.md");
 
   fetch(aboutTextPath)
     .then(response => {
@@ -19,9 +20,8 @@ export default function About() {
 
   return (
     <div id='container'>
-      <img id='aboutImg' src={require("../../images/me_main.jpeg")} alt="me" />
-      <article dangerouslySetInnerHTML={{__html: aboutText}} >
-      </article>
+      <img id='aboutImg' src={imgMe} alt="me" />
+      <article dangerouslySetInnerHTML={{__html: aboutText}} />
     </div>
   )
 }

@@ -7,12 +7,12 @@ export default function Nav() {
   return (
     <div>
       <nav>
-        <span id='nameLogo'>Michael Lloyd</span>
-        <span id='linksContainer'>
-          <Link to='/'><i className="ri-account-circle-fill" /> About</Link>
-          <Link to='/projects'><i className="ri-hammer-fill" />Projects</Link>
-          <Link to='/contact'><i className="ri-at-line" /> Contact</Link>
-        </span>
+        <div id='nameLogo'>Michael Lloyd</div>
+        <div id='linksContainer'>
+          <Link to='/' className='navLink'><i className="ri-account-circle-fill" /> About</Link>
+          <Link to='/projects' className='navLink'><i className="ri-hammer-fill" />Projects</Link>
+          <Link to='/contact' className='navLink'><i className="ri-at-line" /> Contact</Link>
+        </div>
       </nav>
     </div>
   )
