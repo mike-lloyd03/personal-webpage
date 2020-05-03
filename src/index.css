@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #003B6D;
 }
 
 code {
@@ -12,36 +13,3 @@ code {
     monospace;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  background: gray;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-}
-
-nav a:hover {
-  color: gray;
-  background: white;
-}
-
-main {
-  margin-top: 50px;
-}
-
-@media (max-width: 500px) {
-  nav {
-    bottom: 0;
-    top: auto;
-  }
-  main {
-    margin-top: auto;
-  }
-}
