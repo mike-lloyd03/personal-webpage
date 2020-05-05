@@ -4,7 +4,7 @@ import './About.css'
 import imgMe from '../../images/me_main.jpeg'
 
 export default function About() {
-  const [aboutText, setAboutText] = useState('')  
+  const [aboutText, setAboutText] = useState('')
 
   useEffect(() => {
     const aboutTextPath = require("./aboutText.md");

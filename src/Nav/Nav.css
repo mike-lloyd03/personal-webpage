@@ -54,44 +54,29 @@ nav {
   position: relative;
 }
 
-/* .navLink:hover {
+.navLink:hover {
+  background: white;
   color: #1b4ca7;
-  transform: translate(0, -5px);
-} */
+  /* transform: translate(0, -5px); */
+}
 
-.navLink:before {
+/* .navLink:before {
   content: "";
   position: absolute;
   width: 0%;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to right, white 50%, rgba(255,255,255,0));
+  background: white;
   visibility: hidden;
-  /* transform: scaleX(0);  */
   transition: all 0.1s ease-in-out 0s;
-}
-
-.navLink:hover:before {
-  visibility: visible;
-  /* transform: scaleX(1); */
-  width: 100%;
-}
-
-/* .navLink:before {
-  border-bottom: rgba(255,255,255,.2) 2px solid;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  width: 0%;
-  height: 100%;
-  content: '';
-  transition: width .5s;
-  visibility: hidden;
 }
 
 .navLink:hover:before {
   visibility: visible;
   width: 100%;
 } */
+
+.red {
+  border: 1px solid red;
+}

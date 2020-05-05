@@ -1,0 +1,10 @@
+.menu {
+  position: absolute;
+  display: block;
+  top: -10;
+  /* width: 300px; */
+  background: white;
+  color: black;
+  /* border: black 1px solid; */
+  padding: 10px 30px;
+}
