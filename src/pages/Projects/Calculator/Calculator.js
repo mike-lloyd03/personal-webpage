@@ -47,11 +47,11 @@ const doMath = (val1, opp, val2) => {
   }
 };
 const displayValidator = (newVal, display = "0") => {
-  if ((newVal == "." && display.includes(".")) || display.length == 9) {
+  if ((newVal === "." && display.includes(".")) || display.length === 9) {
     return display;
-  } else if (display == "0") {
+  } else if (display === "0") {
     return newVal;
-  } else if (display == "-0") {
+  } else if (display === "-0") {
     return '-'+ newVal;
   } else {
     return display + newVal;
@@ -84,9 +84,9 @@ class Button extends React.Component {
 }
 
 class Display extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (
@@ -122,8 +122,8 @@ export default class App extends React.Component {
     switch (inputType) {
       case "number":
         this.setState(state => {
-          if (state.lastOperation != "operator" &&
-          state.lastOperation != "equals") {
+          if (state.lastOperation !== "operator" &&
+          state.lastOperation !== "equals") {
             return { display: displayValidator(value, state.display), lastOperation: 'number'}
           }
           else {
@@ -137,7 +137,7 @@ export default class App extends React.Component {
         //do the math that is currently set up before moving the display value
         //to the stored value and updating the operator
         this.setState(state => {
-          if (state.operator && state.lastOperation != "equals" && state.lastOperation != "operator") {
+          if (state.operator && state.lastOperation !== "equals" && state.lastOperation !== "operator") {
             return {
               display: doMath(state.storeVal, state.operator, state.display),
               lastOperation: 'operator'
@@ -148,7 +148,7 @@ export default class App extends React.Component {
         )
         
         // //This handles inputting a minus sign following another operator 
-        // if (value == '-' && this.state.lastOperation == "operator") {
+        // if (value === '-' && this.state.lastOperation === "operator") {
         //   this.setState({display: '-', lastOperation: 'operator'})
         //   break
         // }

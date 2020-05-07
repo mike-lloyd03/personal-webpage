@@ -1,14 +1,16 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Card from '@material-ui/core/Card'
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 
 import projectsData from './projectsData'
 
 export default function Projects() {
   const projectTitles = projectsData.map(p => 
-    <li>
+    <li key={p.id}>
       <Link
-        to={'/projects/' + p.title.toLowerCase().replace(/ /g, '')}
-        key={p.title.toLowerCase().replace(/ /g, '')}
+        to={'/projects/' + p.id}
       >
         {p.title}
       </Link>
@@ -20,8 +22,18 @@ export default function Projects() {
       <h1>Projects</h1>
       <ul>
         {projectTitles}
-        <li><Link to='/projects/Calculator'>Calculator</Link></li>
+        <li><Link to='/projects/calculator'>Calculator</Link></li>
       </ul>
+      <Card>
+        <CardMedia
+          image='src/pages/Projects/images/bass-body-main.jpg'
+        />
+        
+        <CardContent>
+          I built a guitar
+        </CardContent>
+
+      </Card>
       
     </div>
   )

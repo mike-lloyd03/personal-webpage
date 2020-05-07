@@ -1,8 +1,14 @@
 import React, {useState} from 'react'
-import ProjectPage from './ProjectPage'
+import {useParams} from 'react-router-dom'
 
-export default function ProjectDetail(props) {
+import ProjectPage from './ProjectPage'
+import projectsData from './projectsData'
+
+export default function ProjectDetail() {
   const [index, setIndex] = useState(0)
+  const {projectID} = useParams()
+
+  const thisProject = projectsData.find(project => project.id === projectID)
 
   const next = () => {
     setIndex(i => i + 1)
@@ -12,17 +18,17 @@ export default function ProjectDetail(props) {
     setIndex(i => i - 1)
   }
 
-  const pageComponents = props.pages.map(p =>
+  const pageComponents = thisProject.pages.map(p =>
     <ProjectPage
-      key={p.title.toLowerCase().replace(/ /g,'')}
+      key={p.id}
       page={p}
     />)
 
   return (
     <div>
-      <h1>{props.title}</h1>
+      <h1>{thisProject.title}</h1>
       <button onClick={previous} disabled={index === 0}>Previous</button>
-      <button onClick={next} disabled={index === (props.pages.length - 1)}>Next</button>
+      <button onClick={next} disabled={index === (thisProject.pages.length - 1)}>Next</button>
       {pageComponents[index]}
     </div>
   )

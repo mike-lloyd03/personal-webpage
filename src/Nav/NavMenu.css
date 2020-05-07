@@ -1,10 +1,21 @@
 .menu {
   position: absolute;
-  display: block;
-  top: -10;
-  /* width: 300px; */
+  display: none;
+  /* top: -10; */
   background: white;
   color: black;
-  /* border: black 1px solid; */
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
+}
+
+.menu:hover {
+  display: block;
+}
+
+.menuLink {
+  padding: 15px;
+  text-align: left;
+}
+
+.menuLink:hover {
+  background: gray;
 }

@@ -1,6 +1,8 @@
 [
   {
     "title": "Bass Guitar Build",
+    "id": "bass-guitar-build",
+    "mainImg": "src/pages/Projects/images/bass-body-main.jpg",
     "description": "I built my own bass",
     "pages": [
       {
@@ -22,6 +24,7 @@
   },
   {
     "title": "Entertainment Center Cabinet",
+    "id": "entertainment-center-cabinet",
     "description": "",
     "pages": [
       {
@@ -33,6 +36,7 @@
   },
   {
     "title": "Kids Book Shelf",
+    "id": "kids-book-shelf",
     "description": "",
     "pages": [
       {
@@ -44,6 +48,7 @@
   },
   {
     "title": "Bathroom Re-Tile",
+    "id": "bathroom-re-tile",
     "description": "",
     "pages": [
       {

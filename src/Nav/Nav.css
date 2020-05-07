@@ -44,8 +44,8 @@ nav {
   /* margin: auto; */
 }
 
-.navLink {
-  display: flex;
+/* .navLink {
+  display: inline-block;
   align-items: center;
   color: white;
   text-decoration: none;
@@ -54,29 +54,16 @@ nav {
   position: relative;
 }
 
-.navLink:hover {
+.navLink:hover, .selected {
   background: white;
   color: #1b4ca7;
-  /* transform: translate(0, -5px); */
-}
-
-/* .navLink:before {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background: white;
-  visibility: hidden;
-  transition: all 0.1s ease-in-out 0s;
-}
-
-.navLink:hover:before {
-  visibility: visible;
-  width: 100%;
+  display: block;
 } */
 
-.red {
-  border: 1px solid red;
+.navButton, .navButton a {
+  color: #003b6d !important;
+}
+
+.navButton:hover, .navButton a:hover {
+  color: black !important;
 }

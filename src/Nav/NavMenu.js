@@ -7,9 +7,13 @@ export default function NavMenu() {
   const {show} = useFade()
   return (
     <div className={`menu ${show}`} >
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
+      <a href='http://www.linkedin.com/in/mikelloyd03' target="_blank" rel='noopener noreferrer' className='menuLink'>
+        <i className="ri-linkedin-box-fill"></i> LinkedIn
+      </a>
+      
+      <a href='https://github.com/mike-lloyd03' target="_blank" rel='noopener noreferrer' className='menuLink'>
+        <i className="ri-github-fill"></i> GitHub
+      </a>
     </div>
   )
 }
