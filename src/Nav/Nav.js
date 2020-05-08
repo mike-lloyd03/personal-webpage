@@ -21,6 +21,7 @@ const handleClose = () => {
     <div>
       <nav>
         <div id='nameLogo'>Michael Lloyd</div>
+        <div id='nameLogoSmall'>ML</div>
 
         <div id='linksContainer'>
           <Button aria-controls="simple-menu" aria-haspopup="true" className="navButton">
@@ -56,9 +57,6 @@ const handleClose = () => {
               </a>
             </MenuItem>
           </Menu>
-
-           
-
         </div>
 
       </nav>
