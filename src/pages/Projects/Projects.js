@@ -19,15 +19,17 @@ export default function Projects() {
         </Link>
       </CardActionArea>
         
-        <CardContent>
-          {p.description}
-        </CardContent>
+      <CardContent>
+        {p.description}
+      </CardContent>
     </Card>
-    )
+  )
   
   return (
     <div>
-      <h1>Projects</h1>
+      <Breadcrumbs aria-label="breadcrumb" component=''>
+        <Link to="/projects"><h2>Projects</h2></Link>
+      </Breadcrumbs>
       <div className='projectsContainer'>
         {projectCards}
       </div>

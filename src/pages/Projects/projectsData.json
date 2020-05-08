@@ -6,19 +6,89 @@
     "description": "I built my own bass",
     "pages": [
       {
+        "title": "Source Guitar",
+        "id": "1",
+        "content": "I picked up an Ibanez GSR105 5-string bass from a pawn shop for 60 bucks. It produced no sound because the volume pot was broken. Luckily, there's a music shop three minutes from my house and I'm pretty good at soldering. I got it up and running with a new volume pot and input jack within a few hours. But I had bigger plans for this guitar."
+      },
+      {
+        "title": "CAD Development",
+        "id": "2",
+        "content": "I decided I wanted to build a new body from scratch. The neck is a solid piece so I figured I could keep it. Plus I liked the tighter 16.5mm layout of the strings. As with most of my projects, this one started with CAD. I designed the basic shape of the body in Onshape. I went through multiple iterations but finally settled on something resembling some of the higher end, smoother contour bodies."
+      },
+      {
         "title": "Practice Lumber",
-        "image": "",
-        "content": "I started with some maple lumber I found at a local lumber yard. It was 1.75 inch thick by about 8 inches long. The thickness was right but the width was too narrow. I'll have to glue it together to make it fit."
+        "id": "3",
+        "content": "I started with some maple lumber I found at a local lumber yard. It was 1.75 inch thick by about 8 inches long. The thickness was right but the width was too narrow so I ended up having to glue the two pieces together."
       },
       {
-        "title": "Truing Up the Two Pieces",
-        "image": "",
-        "content": "The two pieces weren't totally true so gluing them together wouldn't work without truing them up. I tried a few passes on the table saw but it just wasn't working and they were too long to fit on my sliding miter saw. I contacted a local cabinetry shop, and the owner, John, told me to come by and he would cut the two pieces on his panel saw."
+        "title": "Practice Lumber 2",
+        "id": "4",
+        "content": "I worked through all the steps I would need to perfect on the practice piece over the course of a month or two. Even though this was just a cheap piece of maple, it actually looked pretty good and had some interesting grain structure to it. But it had some knots and I knew I could find something better"
       },
       {
-        "title": "Joining them Together",
-        "image": "",
-        "content": "Once the two pieces were trued up, it was just a matter of liberally applying glue and clamping them together overnight."
+        "title": "Sourcing the Ash Lumber",
+        "id": "5",
+        "content": "Once I felt confident I knew what I was doing, I headed back to the lumber yard. To my surprise, I found a board of Ash wood at 1.75 inches thick and 16 inches wide. This was a big enough piece that I could build the whole bass body out of one piece, truly a unique quality."
+      },
+      {
+        "title": "Cutting Out the Shape",
+        "id": "6",
+        "content": "I printed out the template of the body I had designed in CAD and traced it on the board. Once complete, I got to cutting. I used a jigsaw with a 3 inch wood cutting blade. Ash is much harder than maple and I spent a good 30-45 minutes cutting out the rough shape."
+      },
+      {
+        "title": "Contouring the Body",
+        "id": "7",
+        "content": "I knew I didn't just want a 2D cutout with rounded over edges. That's boring. I wanted to give the face and back of the body some contour. So I gradually worked on putting a gentle curve along the body in the direction of the neck axis. (Picture shown is of the maple wood since I apparently didn't take a picture of the ash body at this step.)"
+      },
+      {
+        "title": "Template Making",
+        "id": "8",
+        "content": "A friend from church let me borrow his compact router (which I still haven't given back) to make all the body cutouts. But compact routers like to do their own thing sometimes so I had to make templates to keep the router in line. I made a rough, oversized cutout in a 1/4 inch piece of plywood and fitted it around the end of the neck. Then I filled the gap with wood epoxy and let it sit over night. This resulted in a perfect copy of the neck outline. I didn't come up with this clever idea myself though. I found it online but I can't remember where. Google it."
+      },
+      {
+        "title": "The Neck Pocket",
+        "id": "9",
+        "content": "I cleaned up the template and attached it to the body with double stick tape. Yep. Double stick tape. This worked perfectly on the practice piece so I had a lot of confidence this would work well on the real piece."
+      },
+      {
+        "title": "No...",
+        "id": "10",
+        "content": "Turns out I was a bit over confident. I was using a pretty heavy feed rate, the bit caught on the hard wood and jumped out of my hands. It rammed right into my template and dug into the body outside of where I was going to be routing. You see, I had decided to save some money and bout a set of cheap, Chinese-made router template bits on Amazon. Don't buy Chinese tools. Don't buy Chinese anything. I was pretty devastated by this."
+      },
+      {
+        "title": "Wood Putty",
+        "id": "11",
+        "content": "Not to be discouraged, I patched the hole, and bought a real, American made bit. I carefully finished out the neck pocket without any more disasters."
+      },
+      {
+        "title": "Pickup Pockets",
+        "id": "12",
+        "content": "Once done, I worked on the neck pockets. I was planning to use EMG active pickups and wanted a really tight fit. I made a template from some 1/2 inch board I had laying around and routed the pockets in. But my router bit had a 1/2 inch diameter so the corner radii were too big. I ended up having to go back into the corners freehand with a 1/4 inch straight bit and open them up a bit. This was nerve wracking but I managed to pull it off and the pickup fit perfectly. (You'll notice an extra hole to the left of the bridge pickup. This was another mistake. Thankfully, I had a lot more wood putty left.)"
+      },
+      {
+        "title": "Electronics Cavity",
+        "id": "13",
+        "content": "The electronics cavity should have been easy. But because I decided to put a big contour on the face of the body, I had to be careful about the depth of cut. I needed a wall thickness of about 1/4 inch for the pots to fit through the body. I ended up doing two separate depths in order to achieve the right thickness. I also had to make a small recess around the electronics cavity for the cover to fit. This was largely done by hand and I got lucky."
+      },
+      {
+        "title": "Battery Cover",
+        "id": "14",
+        "content": "Because this was going to be an active bass, I would need a battery. Normally, you just stick it in the electronics cavity. But I was planning to have three knobs in there and I didn't think there would be a lot of space. So I picked up a cheap battery compartment from Amazon (probably China) and fit it in on the back between the two pickup pockets. This recess would also make it easier to route wires between the pickup pockets and the electroncis cavity."
+      },
+      {
+        "title": "Final Sanding",
+        "id": "15",
+        "content": "With all the heavy cutting complete, I began to work on the finish sand. I started with 40 grit and basically worked every flat surface out of the body. I wanted it to be as rounded and smooth as possible. Once I got a shape I liked, I worked my way up to 320 grit. The grain really began to pop and the body looked really smooth. I was very happy."
+      },
+      {
+        "title": "Finish Testing",
+        "id": "16",
+        "content": "With the body being done, I began experimenting with different finish options. Ash usually has very deep grains. I opted to fill them with a colored grain filler. I tried a couple options and settled on a mahogony color. After doing far too much internet research on finishes, I realized everyone has a different opinion and there's no right way to finish a guitar. So I took the advice of a smart friend a bought some tung oil. After three coats on a piece of scrap wood and buffing with 0000 steel wool, I achieved the look I wanted. This piece of scrap wood has actual become a display piece on my desk."
+      },
+      {
+        "title": "Head Replacement",
+        "id": "17",
+        "content": "The headstock had a glossy black finish to match the body. I didn't like this so I sanded it off and glued on some Ash veneer I found online (american grown). The grain has a bit of a different appearance to it, but it should match up with the body once I finish it."
       }
     ]
   },

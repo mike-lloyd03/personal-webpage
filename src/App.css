@@ -7,22 +7,11 @@
 
 }
 
-/* main {
-  background: #EBEDF3;
-  max-width: 600px;
-  margin: auto;
-  margin-top: 100px;
-  line-height: 1.5em;
-  text-indent: 2em;
-  padding: 1em;
-  border-left: gray solid 1px;
-  border-right: gray solid 1px;
-} */
-
 .mainContent {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 50px;
   padding: .5em 3em;
 }
 
@@ -37,7 +26,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #EBEDF3;
+  /* background: #EBEDF3; */
+  background-image: linear-gradient(to right, rgba(250,250,250,.8), rgba(250,250,250,.2)), url(./images/botanic-gardens.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 code {

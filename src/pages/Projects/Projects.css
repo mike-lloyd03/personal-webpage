@@ -3,3 +3,8 @@
   grid-template-columns: auto auto;
   gap: 20px;
 }
+
+.centered {
+  text-align: center;
+  margin: auto;
+}

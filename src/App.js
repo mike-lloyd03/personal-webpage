@@ -19,7 +19,7 @@ function App() {
       <Nav />
 
       <main>
-        <Paper className='mainContent'>
+        <Paper className='mainContent' elevation='3'>
           <Switch>
             <Route exact path='/'><About /></Route>
             <Route path='/projects/calculator'><Calculator /></Route>
