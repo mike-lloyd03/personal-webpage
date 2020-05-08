@@ -2,7 +2,7 @@
   {
     "title": "Bass Guitar Build",
     "id": "bass-guitar-build",
-    "mainImg": "src/pages/Projects/images/bass-body-main.jpg",
+    "mainImg": "./images/bass-guitar-build/main-img.jpg",
     "description": "I built my own bass",
     "pages": [
       {
@@ -25,7 +25,8 @@
   {
     "title": "Entertainment Center Cabinet",
     "id": "entertainment-center-cabinet",
-    "description": "",
+    "mainImg": "./images/entertainment-center-cabinet/main-img.jpg",
+    "description": "My first attempt at cabinetry",
     "pages": [
       {
         "title": "CAD Layouts",
@@ -37,7 +38,8 @@
   {
     "title": "Kids Book Shelf",
     "id": "kids-book-shelf",
-    "description": "",
+    "mainImg": "./images/kids-book-shelf/main-img.jpg",
+    "description": "One of the wife projects",
     "pages": [
       {
         "title": "",
@@ -49,7 +51,8 @@
   {
     "title": "Bathroom Re-Tile",
     "id": "bathroom-re-tile",
-    "description": "",
+    "mainImg": "./images/bathroom-re-tile/main-img.jpg",
+    "description": "A water damage fairytale",
     "pages": [
       {
         "title": "",

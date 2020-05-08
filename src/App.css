@@ -7,7 +7,7 @@
 
 }
 
-main {
+/* main {
   background: #EBEDF3;
   max-width: 600px;
   margin: auto;
@@ -17,7 +17,13 @@ main {
   padding: 1em;
   border-left: gray solid 1px;
   border-right: gray solid 1px;
+} */
 
+.mainContent {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  padding: .5em 3em;
 }
 
 main h1, main h2, main h3 {
@@ -31,7 +37,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #ffffff;
+  background: #EBEDF3;
 }
 
 code {
