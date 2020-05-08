@@ -11,7 +11,7 @@ nav {
   margin: 0;
   padding: 0 20px;
   top: 0;
-  background-image: linear-gradient(to bottom, rgba(31, 82, 177,.7), rgba(255,255,255,0));
+  background-image: linear-gradient(to bottom, rgba(31, 82, 177,.6), rgba(255,255,255,0));
   width: 100%;
   height: 100px;
   color: white;
@@ -28,6 +28,7 @@ nav {
 
 #linksContainer {
   display: flex;
+  flex-wrap: no-wrap;
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -38,4 +39,22 @@ nav {
 
 .navButton:hover, .navButton a:hover {
   color: #1166b1 !important;
+}
+
+@media (max-width: 500px) {
+  #nameLogo {
+    font-size: 2em;
+  }
+  nav {
+    height: 60px;
+  }
+  .navButton {
+    font-size: .8em !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #nameLogo {
+    display: none;
+  }
 }

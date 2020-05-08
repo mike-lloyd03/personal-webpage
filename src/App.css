@@ -47,3 +47,9 @@ a:hover {
   color: #5983d1;
 }
 
+@media (max-width: 500px) {
+  .mainContent {
+    margin-top: 60px;
+    padding: .5em 1em;
+  }
+}
